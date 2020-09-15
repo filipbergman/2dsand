@@ -1,0 +1,28 @@
+Index: Library/ProtocolInstance.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[{\"Port\":43067,\"SolutionName\":\"2dsand\"}]
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Library/ProtocolInstance.json	(revision 2250bdeec6aa2b23d2085f7232f0ead93369c2b6)
++++ Library/ProtocolInstance.json	(date 1600114046865)
+@@ -1,1 +1,1 @@
+-[{"Port":43067,"SolutionName":"2dsand"}]
+\ No newline at end of file
++[{"Port":41757,"SolutionName":"2dsand"}]
+\ No newline at end of file
+Index: Library/StateCache/Hierarchy/109c16-mainStage.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"m_ExpandedPrefabGameObjectFileIDs\":[],\"m_ExpandedSceneGameObjectInstanceIDs\":[],\"m_ScrollY\":0.0,\"m_LastClickedFileID\":0,\"m_LastClickedInstanceID\":0}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Library/StateCache/Hierarchy/109c16-mainStage.json	(revision 2250bdeec6aa2b23d2085f7232f0ead93369c2b6)
++++ Library/StateCache/Hierarchy/109c16-mainStage.json	(date 1600114045517)
+@@ -1,1 +1,1 @@
+-{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0.0,"m_LastClickedFileID":0,"m_LastClickedInstanceID":0}
+\ No newline at end of file
++{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-1246],"m_ScrollY":0.0,"m_LastClickedFileID":0,"m_LastClickedInstanceID":0}
+\ No newline at end of file

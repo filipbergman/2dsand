@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0d31ebc-9de1-4d15-9b40-9d68c807749e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/2c2c9b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/2c2c9b-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e1/e1dde91658f3bd5f28c1eff516038dd2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e1/e1dde91658f3bd5f28c1eff516038dd2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/filip/2dsand/Assets/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/filip/2dsand/Assets/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MoveTrail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/filip/2dsand/Assets/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/filip/2dsand/Assets/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Parallax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ArmRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/filip/2dsand/Assets/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/MoveTrail.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hPUdsshruhmshvxS46zgFguRL3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$PROJECT_DIR$/../.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599913145697">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="457" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1599913145697" />
+    <state x="695" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600008271126">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="695" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1600008271126" />
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1600113292863">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1600113292863" />
+    <state x="630" y="174" key="SettingsEditor" timestamp="1599954463650">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="630" y="174" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1599954463650" />
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1600114229294">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="592" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1600114229294" />
+    <state x="164" y="96" width="1657" height="885" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600113292863">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="164" y="96" width="1657" height="885" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1600113292863" />
+    <state x="165" y="96" width="1655" height="884" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600113292863">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="165" y="96" width="1655" height="884" key="com.intellij.history.integration.ui.views.FileHistoryDialog/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1600113292863" />
+    <state x="719" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600114300797">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="719" y="233" key="git4idea.branch.GitSmartOperationDialog/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1600114300797" />
+  </component>
+</project>
