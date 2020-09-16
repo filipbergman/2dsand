@@ -10,8 +10,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ArmRotation.cs" t="Include" />
+        <e p="GameMaster.cs" t="Include" />
         <e p="MoveTrail.cs" t="Include" />
         <e p="Parallax.cs" t="Include" />
+        <e p="Player.cs" t="Include" />
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
             <e p="Scripts" t="Include">

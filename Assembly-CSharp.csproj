@@ -60,8 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ArmRotation.cs" />
+    <Compile Include="Assets\GameMaster.cs" />
     <Compile Include="Assets\MoveTrail.cs" />
     <Compile Include="Assets\Parallax.cs" />
+    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\Weapon.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/home/filip/2dsand/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
