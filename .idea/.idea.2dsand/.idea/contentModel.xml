@@ -10,6 +10,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ArmRotation.cs" t="Include" />
+        <e p="Camera2DFollow.cs" t="Include" />
         <e p="GameMaster.cs" t="Include" />
         <e p="MoveTrail.cs" t="Include" />
         <e p="Parallax.cs" t="Include" />
@@ -17,7 +18,6 @@
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
             <e p="Scripts" t="Include">
-              <e p="Camera2DFollow.cs" t="Include" />
               <e p="CameraFollow.cs" t="Include" />
               <e p="Platformer2DUserControl.cs" t="Include" />
               <e p="PlatformerCharacter2D.cs" t="Include" />

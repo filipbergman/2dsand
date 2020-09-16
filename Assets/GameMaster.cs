@@ -15,15 +15,23 @@ public class GameMaster : MonoBehaviour
     }
     public Transform playerPrefab;
     public Transform spawnPoint;
+    public float spawnDelay = 2f;
+    public Transform spawnPrefab;
     
-    public void RespawnPlayer() {
+    public IEnumerator RespawnPlayer()
+    {
+        GetComponent<AudioSource>().Play();
+        
+        yield return new WaitForSeconds(spawnDelay);
         Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
-        Debug.Log("TODO: add spawn particles");
+        Transform clone = Instantiate(spawnPrefab, spawnPoint.position, spawnPoint.rotation) as Transform;
+        Destroy(clone.gameObject, 3f);
+        
     } 
     
     public static void KillPlayer(Player player) {
         Destroy(player.gameObject);
-        gm.RespawnPlayer();
+        gm.StartCoroutine(gm.RespawnPlayer());
     }
     
     
