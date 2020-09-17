@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: e27df5e2ba07c045f9ad951eab7bdf66
+guid: 8998e7bc98dffa2508c1975f9d9ba582
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3560456535439464054
-    second: greenmountain 1_0
-  - first:
-      213: -5812577584076054841
-    second: Foreground
-  - first:
-      213: -3024798014263718931
-    second: Background1
-  - first:
-      213: 3585075094346165510
-    second: Background2
+      213: 9029781845546532174
+    second: fackla
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -72,10 +63,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -83,10 +74,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,10 +85,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: greenmountain 1_0
+      name: fackla
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2115
-        width: 3000
-        height: 885
+        x: 15
+        y: 219
+        width: 7
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,71 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72f4825662925021eb33c5aa1e687588
-      internalID: 3560456535439464054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Foreground
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1722
-        width: 3000
-        height: 387
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb1b12fa061f6549791ecdfd304188be
-      internalID: -5812577584076054841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1026
-        width: 3000
-        height: 388
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0acc6894109e87a608d60925dd34319f
-      internalID: -3024798014263718931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3000
-        height: 940
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3937f8682a2b21b2da62f3afc1f91599
-      internalID: 3585075094346165510
+      spriteID: 7337ed774f5854a79a550e474ae8d974
+      internalID: 9029781845546532174
       vertices: []
       indices: 
       edges: []
@@ -193,7 +121,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ceafbc6b6bd457185a0f5dea262ce152
+    spriteID: cdce2184f46a759ae825514cfb2fe134
     internalID: 0
     vertices: []
     indices: 
