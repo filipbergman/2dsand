@@ -10,7 +10,7 @@ public class GameMaster : MonoBehaviour
 
     private void Start() {
         if (gm == null) {
-            gm = this;
+            gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
         }
     }
     public Transform playerPrefab;
@@ -34,6 +34,9 @@ public class GameMaster : MonoBehaviour
         gm.StartCoroutine(gm.RespawnPlayer());
     }
     
-    
+    public static void KillEnemy(Enemy enemy) {
+        Destroy(enemy.gameObject);
+
+    }
     
 }
