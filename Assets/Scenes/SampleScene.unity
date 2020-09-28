@@ -217,8 +217,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &90748585
-BoxCollider2D:
+--- !u!60 &90748585
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -240,9 +240,41 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10.285714, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 2.7142859}
+      - {x: -3.857143, y: -1}
+      - {x: -1.4285715, y: -2.1428573}
+      - {x: -1.4285715, y: -6.714286}
+      - {x: 1.4285715, y: -6.714286}
+      - {x: 2.857143, y: -3.0000002}
+      - {x: 3.5714288, y: 5}
+      - {x: 5.1428576, y: 5.4285717}
+    - - {x: -0.14285715, y: 0.5714286}
+      - {x: 0.14285715, y: 1}
+      - {x: 0.2857143, y: 1.5714287}
+      - {x: 0.2857143, y: 2.857143}
+      - {x: 0.71428573, y: 3.7142859}
+      - {x: 0.71428573, y: 4.571429}
+      - {x: 0.42857146, y: 5}
+      - {x: 0.5714286, y: 3.857143}
+      - {x: 1, y: 3.2857144}
+      - {x: 0.5714286, y: 1.7142859}
+      - {x: 0.5714286, y: 0.2857143}
+    - - {x: -2.2857144, y: 1.5714287}
+      - {x: -1.8571429, y: 3.2857144}
+      - {x: -1.8571429, y: 5.2857146}
+      - {x: -2, y: 5.2857146}
+      - {x: -2, y: 4.857143}
+      - {x: -1.4285715, y: 4.2857146}
+      - {x: -1.5714287, y: 3.5714288}
+      - {x: -1.7142859, y: 2.2857144}
+      - {x: -1.7142859, y: 1.8571429}
+      - {x: -2.1428573, y: 1.2857144}
+      - {x: -2, y: 1.2857144}
+      - {x: -2, y: 1.4285715}
 --- !u!212 &90748586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -324,8 +356,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &92375931
-BoxCollider2D:
+--- !u!60 &92375931
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -347,9 +379,31 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 12.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 4.4285717, y: 1}
+      - {x: 4.4285717, y: 2.857143}
+      - {x: 6.2857146, y: 5.4285717}
+      - {x: 6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 1}
+      - {x: -2.1428573, y: -0.71428573}
+      - {x: -3.2857144, y: -2.7142859}
+      - {x: -2.857143, y: -6.714286}
+      - {x: -0.42857146, y: -6.714286}
+      - {x: -0.2857143, y: -3.0000002}
+      - {x: 2.4285715, y: -2.7142859}
+      - {x: 3.7142859, y: -1.5714287}
+    - - {x: 0.5714286, y: -0.2857143}
+      - {x: 0.42857146, y: 1.5714287}
+      - {x: 0.14285715, y: 5}
+      - {x: 2, y: 5.2857146}
+      - {x: 1.1428572, y: 4.571429}
+      - {x: 1.5714287, y: -0.14285715}
+    - - {x: -4.4285717, y: 2.7142859}
+      - {x: -4, y: 4.1428576}
+      - {x: -2.4285715, y: 5.1428576}
+      - {x: -2.1428573, y: 2.4285715}
 --- !u!212 &92375932
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -511,8 +565,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &147135828
-BoxCollider2D:
+--- !u!60 &147135828
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -534,9 +588,31 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 12.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 4.4285717, y: 1}
+      - {x: 4.4285717, y: 2.857143}
+      - {x: 6.2857146, y: 5.4285717}
+      - {x: 6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 1}
+      - {x: -2.1428573, y: -0.71428573}
+      - {x: -3.2857144, y: -2.7142859}
+      - {x: -2.857143, y: -6.714286}
+      - {x: -0.42857146, y: -6.714286}
+      - {x: -0.2857143, y: -3.0000002}
+      - {x: 2.4285715, y: -2.7142859}
+      - {x: 3.7142859, y: -1.5714287}
+    - - {x: 0.5714286, y: -0.2857143}
+      - {x: 0.42857146, y: 1.5714287}
+      - {x: 0.14285715, y: 5}
+      - {x: 2, y: 5.2857146}
+      - {x: 1.1428572, y: 4.571429}
+      - {x: 1.5714287, y: -0.14285715}
+    - - {x: -4.4285717, y: 2.7142859}
+      - {x: -4, y: 4.1428576}
+      - {x: -2.4285715, y: 5.1428576}
+      - {x: -2.1428573, y: 2.4285715}
 --- !u!212 &147135829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -809,8 +885,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &442482216
-BoxCollider2D:
+--- !u!60 &442482216
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -832,9 +908,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 11.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.7857144, y: 0.14285715}
+      - {x: 4.357143, y: 3.1428573}
+      - {x: 5.7857146, y: 5.4285717}
+      - {x: 5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 4.2857146}
+      - {x: -2.6428573, y: -2}
+      - {x: -2.2142859, y: -6.714286}
+      - {x: 0.6428572, y: -6.714286}
+      - {x: 0.6428572, y: -6.571429}
+      - {x: 0.071428575, y: -0.71428573}
+      - {x: 2.6428573, y: -0.5714286}
+    - - {x: -0.35714287, y: 2.1428573}
+      - {x: 0.071428575, y: 4.571429}
+      - {x: 0.7857143, y: 3.2857144}
+      - {x: 0.21428573, y: 1.2857144}
+    - - {x: -2.0714288, y: 5.2857146}
+      - {x: -1.7857144, y: 5.2857146}
+      - {x: -2.2142859, y: 4.4285717}
+      - {x: -2.0714288, y: 4.4285717}
 --- !u!212 &442482217
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1091,7 +1186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 532614835}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,8 +1237,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &635918248
-BoxCollider2D:
+--- !u!60 &635918248
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1165,9 +1260,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 11.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.7857144, y: 0.14285715}
+      - {x: 4.357143, y: 3.1428573}
+      - {x: 5.7857146, y: 5.4285717}
+      - {x: 5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 4.2857146}
+      - {x: -2.6428573, y: -2}
+      - {x: -2.2142859, y: -6.714286}
+      - {x: 0.6428572, y: -6.714286}
+      - {x: 0.6428572, y: -6.571429}
+      - {x: 0.071428575, y: -0.71428573}
+      - {x: 2.6428573, y: -0.5714286}
+    - - {x: -0.35714287, y: 2.1428573}
+      - {x: 0.071428575, y: 4.571429}
+      - {x: 0.7857143, y: 3.2857144}
+      - {x: 0.21428573, y: 1.2857144}
+    - - {x: -2.0714288, y: 5.2857146}
+      - {x: -1.7857144, y: 5.2857146}
+      - {x: -2.2142859, y: 4.4285717}
+      - {x: -2.0714288, y: 4.4285717}
 --- !u!212 &635918249
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1249,8 +1363,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &706379475
-BoxCollider2D:
+--- !u!60 &706379475
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1272,9 +1386,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 11.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.7857144, y: 0.14285715}
+      - {x: 4.357143, y: 3.1428573}
+      - {x: 5.7857146, y: 5.4285717}
+      - {x: 5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 4.2857146}
+      - {x: -2.6428573, y: -2}
+      - {x: -2.2142859, y: -6.714286}
+      - {x: 0.6428572, y: -6.714286}
+      - {x: 0.6428572, y: -6.571429}
+      - {x: 0.071428575, y: -0.71428573}
+      - {x: 2.6428573, y: -0.5714286}
+    - - {x: -0.35714287, y: 2.1428573}
+      - {x: 0.071428575, y: 4.571429}
+      - {x: 0.7857143, y: 3.2857144}
+      - {x: 0.21428573, y: 1.2857144}
+    - - {x: -2.0714288, y: 5.2857146}
+      - {x: -1.7857144, y: 5.2857146}
+      - {x: -2.2142859, y: 4.4285717}
+      - {x: -2.0714288, y: 4.4285717}
 --- !u!212 &706379476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1383,7 +1516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIeyboMM8TAIAAPQEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzk3HEBNCby0hpAcCE9LJxRchrbEGWfLoI3xk+O9dyXbs0OkJse+t9r3dlT+IULYC5rRZGMGXmgP5MSDhTL4NOvAJjnSn1UacoeW8Ce6KQKKR80Kd0BgfhjSrS3BGsJ9qJwM5waBXItemnPMdzLR1FsM5lRYQMtqFbIWhjwE54s/NNKSc8DSahNMZT9NkcMEjA+XAdNSW2NJqlldM0rICHiR35HHLHtc0hWYaRhDOtJTCNkqIO1XR6aYqwECwygVFY7F6oBcgdoULIvu5qzy34BpFhp4ehMH+1JeSX7puWkntvpb1TqWP9ZNRGjXVty7/IdwMI5wbXT61hYdJKOIKwfYv9MSodb229sMPX5V7daByT7cS3gpQz3phtFccQWd8SPUWRg/d309vswLYvovXUq+Cvvr/cIKHS7R/nElRbgP0Pa0DG6ljv+PoweBkfqPguBi2uQKjQcUfC69019+gBngUxjqEGpcqyNtqbwKVzGPPghvvZtooiOFGdAWKSnda4zXueoZXWK/sFfJIw1tpijdY+wSuUmK44yfJFbTWh89h2UIflmCLlXdSKOhEB+AZ+zTTStUr1u9Jm7bxJqesl7bzgn9dLbIdb5M8ndxO+RDux/f3N2m6ZRN6d5tMpym7Syck7p5Q6JPKdS20aQ9Ord8ThYvWfkMGC0OruO/c0MNCnEvdVyhUrjfMAKjV1zssGCyD75LPucAWbcA5oeLEyUdGpGZ74Nmnoyx6nR+doVl3S0Yq8a5diGRkFr8aGbmQy19QSwMEFAAACAgAAAgh7EQSL39tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tFKSaZJBmom5sWWKYaqFqYWFrolJUrJ5opmxgaWlSbKZiblSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7JugwzxMAgAA9AQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7EQSL39tAAAAeAAAAAkAJAAAAAAAAAAAAAAAmQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABRAwAAAAA=
+    dataString: UEsDBBQAAAgIAAAIIexII7FITQIAAPMEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzqVjiAnQW0sI6SEJE9LJxRchrbEGWfLoI0Ay/PeuZBs7dHpi2fd29+2H/EmEshUwp83KCP6oOZAfAxJs8m3QgQ9wpDutNuIDWs6b4K4IJBo5L9QJjf5RCLO6BGcE+6l2MpATdHolcm3KJd/BQltn0Z1TaQEho12IVuj6HJAj/gznIeSE1ngarA+05sngjCYD5cB01JbY0mqWV0zSsgIeJHfkScue1DSFzTSMIJxpKYVtlBB3qmKnm6oAA6FVLig2FqsHegFiV7ggsh/7nOcWXKPI0NOdMDifOin5peuhldTua1nvVPpYPxmnUVOd9fEfwnAU4dzo8qEtPEpCEVcItn+hJ0at64217777qtyrA5V7upXwVoB60iujveIIOuNDqLcwvuv+XnpbFMD2nb+WeuX01f+XE3o4x/aPCynKbYC+p7VjI3Wcd1w9GNzMbxQcD8M2KdAbVPyx8Ep3/QtqgHthrEOo6VIFeVvtTaCSZZxZ6Ma7hTYKorsRXYGi0p3WmMZd7/AK65W9Qu5peCtN8QZrn8BVSHR3/CS5gtb6cFmWLfThEWzx7J0UCjrRAXjCOS20UvWJ9WfShm28ySnrhe284F9Pi2wn2yRPpzdzPoLZZDYbpumWTentTTKfp+w2nZJ4e0Jhn1Sua6HNeHBrqkuu8M7aT8hgZWgVz50beliJj1L3BQqV6w0zAOq5TnFRDgar4LPkSy5wQhtwTqi4cPKZEanZHnh2qZnFVpdHZ2jWZclIJd61C56MLOJHIyNncv4LUEsDBBQAAAgIAAAIIexEEi9/bQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSkmmSQZqJubFlimGqhamFha6JSVKyeaKZsYGlpUmymYm5UixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIexII7FITQIAAPMEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIexEEi9/bQAAAHgAAAAJACQAAAAAAAAAAAAAAJoCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAUgMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -1766,8 +1899,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1477396343
-BoxCollider2D:
+--- !u!60 &1477396343
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1789,9 +1922,41 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10.285714, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 2.7142859}
+      - {x: -3.857143, y: -1}
+      - {x: -1.4285715, y: -2.1428573}
+      - {x: -1.4285715, y: -6.714286}
+      - {x: 1.4285715, y: -6.714286}
+      - {x: 2.857143, y: -3.0000002}
+      - {x: 3.5714288, y: 5}
+      - {x: 5.1428576, y: 5.4285717}
+    - - {x: -0.14285715, y: 0.5714286}
+      - {x: 0.14285715, y: 1}
+      - {x: 0.2857143, y: 1.5714287}
+      - {x: 0.2857143, y: 2.857143}
+      - {x: 0.71428573, y: 3.7142859}
+      - {x: 0.71428573, y: 4.571429}
+      - {x: 0.42857146, y: 5}
+      - {x: 0.5714286, y: 3.857143}
+      - {x: 1, y: 3.2857144}
+      - {x: 0.5714286, y: 1.7142859}
+      - {x: 0.5714286, y: 0.2857143}
+    - - {x: -2.2857144, y: 1.5714287}
+      - {x: -1.8571429, y: 3.2857144}
+      - {x: -1.8571429, y: 5.2857146}
+      - {x: -2, y: 5.2857146}
+      - {x: -2, y: 4.857143}
+      - {x: -1.4285715, y: 4.2857146}
+      - {x: -1.5714287, y: 3.5714288}
+      - {x: -1.7142859, y: 2.2857144}
+      - {x: -1.7142859, y: 1.8571429}
+      - {x: -2.1428573, y: 1.2857144}
+      - {x: -2, y: 1.2857144}
+      - {x: -2, y: 1.4285715}
 --- !u!212 &1477396344
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1970,8 +2135,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1643170150
-BoxCollider2D:
+--- !u!60 &1643170150
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1993,9 +2158,41 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10.285714, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 6.714286}
+      - {x: -5.0871887, y: 5.4421415}
+      - {x: -3.8571434, y: 3.3463438}
+      - {x: -1.4285715, y: -2.1428573}
+      - {x: -1.4285715, y: -6.714286}
+      - {x: 1.4285715, y: -6.714286}
+      - {x: 2.857143, y: -3.0000002}
+      - {x: 3.5714288, y: 5}
+      - {x: 5.1428576, y: 5.4285717}
+    - - {x: -0.14285715, y: 0.5714286}
+      - {x: 0.14285715, y: 1}
+      - {x: 0.2857143, y: 1.5714287}
+      - {x: 0.2857143, y: 2.857143}
+      - {x: 0.71428573, y: 3.7142859}
+      - {x: 0.71428573, y: 4.571429}
+      - {x: 0.42857146, y: 5}
+      - {x: 0.5714286, y: 3.857143}
+      - {x: 1, y: 3.2857144}
+      - {x: 0.5714286, y: 1.7142859}
+      - {x: 0.5714286, y: 0.2857143}
+    - - {x: -2.2857144, y: 1.5714287}
+      - {x: -1.8571429, y: 3.2857144}
+      - {x: -1.8571429, y: 5.2857146}
+      - {x: -2, y: 5.2857146}
+      - {x: -2, y: 4.857143}
+      - {x: -1.4285715, y: 4.2857146}
+      - {x: -1.5714287, y: 3.5714288}
+      - {x: -1.7142859, y: 2.2857144}
+      - {x: -1.7142859, y: 1.8571429}
+      - {x: -2.1428573, y: 1.2857144}
+      - {x: -2, y: 1.2857144}
+      - {x: -2, y: 1.4285715}
 --- !u!212 &1643170151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6967,8 +7164,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1889754712
-BoxCollider2D:
+--- !u!60 &1889754712
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6990,9 +7187,31 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 12.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 4.4285717, y: 1}
+      - {x: 4.4285717, y: 2.857143}
+      - {x: 6.2857146, y: 5.4285717}
+      - {x: 6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 1}
+      - {x: -2.1428573, y: -0.71428573}
+      - {x: -3.2857144, y: -2.7142859}
+      - {x: -2.857143, y: -6.714286}
+      - {x: -0.42857146, y: -6.714286}
+      - {x: -0.2857143, y: -3.0000002}
+      - {x: 2.4285715, y: -2.7142859}
+      - {x: 3.7142859, y: -1.5714287}
+    - - {x: 0.5714286, y: -0.2857143}
+      - {x: 0.42857146, y: 1.5714287}
+      - {x: 0.14285715, y: 5}
+      - {x: 2, y: 5.2857146}
+      - {x: 1.1428572, y: 4.571429}
+      - {x: 1.5714287, y: -0.14285715}
+    - - {x: -4.4285717, y: 2.7142859}
+      - {x: -4, y: 4.1428576}
+      - {x: -2.4285715, y: 5.1428576}
+      - {x: -2.1428573, y: 2.4285715}
 --- !u!212 &1889754713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7074,8 +7293,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1947407019
-BoxCollider2D:
+--- !u!60 &1947407019
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7097,9 +7316,31 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 12.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 4.4285717, y: 1}
+      - {x: 4.4285717, y: 2.857143}
+      - {x: 6.2857146, y: 5.4285717}
+      - {x: 6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 6.714286}
+      - {x: -6.2857146, y: 1}
+      - {x: -2.1428573, y: -0.71428573}
+      - {x: -3.2857144, y: -2.7142859}
+      - {x: -2.857143, y: -6.714286}
+      - {x: -0.42857146, y: -6.714286}
+      - {x: -0.2857143, y: -3.0000002}
+      - {x: 2.4285715, y: -2.7142859}
+      - {x: 3.7142859, y: -1.5714287}
+    - - {x: 0.5714286, y: -0.2857143}
+      - {x: 0.42857146, y: 1.5714287}
+      - {x: 0.14285715, y: 5}
+      - {x: 2, y: 5.2857146}
+      - {x: 1.1428572, y: 4.571429}
+      - {x: 1.5714287, y: -0.14285715}
+    - - {x: -4.4285717, y: 2.7142859}
+      - {x: -4, y: 4.1428576}
+      - {x: -2.4285715, y: 5.1428576}
+      - {x: -2.1428573, y: 2.4285715}
 --- !u!212 &1947407020
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7214,8 +7455,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &2086623959
-BoxCollider2D:
+--- !u!60 &2086623959
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7237,9 +7478,41 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10.285714, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 6.714286}
+      - {x: -5.1428576, y: 2.7142859}
+      - {x: -3.857143, y: -1}
+      - {x: -1.4285715, y: -2.1428573}
+      - {x: -1.4285715, y: -6.714286}
+      - {x: 1.4285715, y: -6.714286}
+      - {x: 2.857143, y: -3.0000002}
+      - {x: 3.5714288, y: 5}
+      - {x: 5.1428576, y: 5.4285717}
+    - - {x: -0.14285715, y: 0.5714286}
+      - {x: 0.14285715, y: 1}
+      - {x: 0.2857143, y: 1.5714287}
+      - {x: 0.2857143, y: 2.857143}
+      - {x: 0.71428573, y: 3.7142859}
+      - {x: 0.71428573, y: 4.571429}
+      - {x: 0.42857146, y: 5}
+      - {x: 0.5714286, y: 3.857143}
+      - {x: 1, y: 3.2857144}
+      - {x: 0.5714286, y: 1.7142859}
+      - {x: 0.5714286, y: 0.2857143}
+    - - {x: -2.2857144, y: 1.5714287}
+      - {x: -1.8571429, y: 3.2857144}
+      - {x: -1.8571429, y: 5.2857146}
+      - {x: -2, y: 5.2857146}
+      - {x: -2, y: 4.857143}
+      - {x: -1.4285715, y: 4.2857146}
+      - {x: -1.5714287, y: 3.5714288}
+      - {x: -1.7142859, y: 2.2857144}
+      - {x: -1.7142859, y: 1.8571429}
+      - {x: -2.1428573, y: 1.2857144}
+      - {x: -2, y: 1.2857144}
+      - {x: -2, y: 1.4285715}
 --- !u!212 &2086623960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7515,8 +7788,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &2137532552
-BoxCollider2D:
+--- !u!60 &2137532552
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7538,9 +7811,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 11.571428, y: 13.428572}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.7857144, y: 0.14285715}
+      - {x: 4.357143, y: 3.1428573}
+      - {x: 5.7857146, y: 5.4285717}
+      - {x: 5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 6.714286}
+      - {x: -5.7857146, y: 4.2857146}
+      - {x: -2.6428573, y: -2}
+      - {x: -2.2142859, y: -6.714286}
+      - {x: 0.6428572, y: -6.714286}
+      - {x: 0.6428572, y: -6.571429}
+      - {x: 0.071428575, y: -0.71428573}
+      - {x: 2.6428573, y: -0.5714286}
+    - - {x: -0.35714287, y: 2.1428573}
+      - {x: 0.071428575, y: 4.571429}
+      - {x: 0.7857143, y: 3.2857144}
+      - {x: 0.21428573, y: 1.2857144}
+    - - {x: -2.0714288, y: 5.2857146}
+      - {x: -1.7857144, y: 5.2857146}
+      - {x: -2.2142859, y: 4.4285717}
+      - {x: -2.0714288, y: 4.4285717}
 --- !u!212 &2137532553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7772,6 +8064,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 943068186, guid: 068c86a73bbfe3811be9783b5bdcb1e4, type: 3}
+      propertyPath: HitPrefab
+      value: 
+      objectReference: {fileID: 8889342849201646026, guid: eea7abd75ecb0784ba79a89757f37bd8,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 068c86a73bbfe3811be9783b5bdcb1e4, type: 3}
 --- !u!1001 &6220604007685947204
