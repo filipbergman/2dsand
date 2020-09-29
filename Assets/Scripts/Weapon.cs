@@ -6,11 +6,17 @@ public class Weapon : MonoBehaviour {
     public float fireRate = 0; // 0 if single burst weapon
     public int Damage = 10;
     public LayerMask whatToHit;
+
     public Transform BulletTrailPrefab;
     public float effectSpawnRate = 10;
     public Transform MuzzleFlashPrefab;
     public Transform HitPrefab;
-    
+
+    // Handle camera shaking
+    public float camShakeAmount = 0.05f;
+    public float camShakeLength = 0.1f;
+    CameraShake camShake;
+
     float timeToFire = 0;
     float timeToSpawnEffect = 0;
     Transform firePoint;
@@ -18,43 +24,40 @@ public class Weapon : MonoBehaviour {
     // Start is called before the first frame update
     void Awake() {
         firePoint = transform.Find("FirePoint");
-        if (firePoint == null)
-        {
+        if (firePoint == null) {
             Debug.LogError("No firepoint was found!");
         }
-        
+    }
+
+    private void Start() {
+        camShake = GameMaster.gm.GetComponent<CameraShake>();
+        if(camShake == null) {
+            Debug.LogError("No CameraShake script found on GM object.");
+        }
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (fireRate == 0)
-        {
-            if (Input.GetButtonDown("Fire1"))
-            {
+    void Update() {
+        if (fireRate == 0) {
+            if (Input.GetButtonDown("Fire1")) {
                 Shoot();
             }
-        }
-        else
-        {
-            if (Input.GetButton("Fire1") && Time.time > timeToFire)
-            {
+        } else {
+            if (Input.GetButton("Fire1") && Time.time > timeToFire) {
                 timeToFire = Time.time + 1 / fireRate;
                 Shoot();
             }
         }
     }
 
-    void Shoot()
-    {
+    void Shoot() {
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
         RaycastHit2D hit = Physics2D.Raycast(firePointPosition, (mousePosition - firePointPosition) * 100, whatToHit);
     
        
         //Debug.DrawLine(firePointPosition, (mousePosition-firePointPosition)*100, Color.cyan);
-        if (hit.collider != null)
-        {
+        if (hit.collider != null) {
             //Debug.DrawLine(firePointPosition, hit.point, Color.red);
             
             Enemy enemy = hit.collider.GetComponent<Enemy>();
@@ -63,8 +66,7 @@ public class Weapon : MonoBehaviour {
                 Debug.Log("We hit" + hit.collider.name + " and did " + Damage + " damage!");
             }
         }
-        if (Time.time >= timeToSpawnEffect)
-        {
+        if (Time.time >= timeToSpawnEffect) {
             Vector3 hitPos;
             Vector3 hitNormal;
 
@@ -82,8 +84,7 @@ public class Weapon : MonoBehaviour {
     
     
         
-    void Effect(Vector3 hitPos, Vector3 hitNormal)
-    {
+    void Effect(Vector3 hitPos, Vector3 hitNormal) {
         Transform trail = Instantiate(BulletTrailPrefab, firePoint.position, firePoint.rotation) as Transform;
         LineRenderer lr = trail.GetComponent<LineRenderer>();
 
@@ -106,5 +107,8 @@ public class Weapon : MonoBehaviour {
         float size = Random.Range(0.6f, 0.9f);
         clone.localScale = new Vector3(size, size, 1);
         Destroy(clone.gameObject, 0.02f);
+
+        // Shake the camera
+        camShake.Shake(camShakeAmount, camShakeLength);
     }
 }

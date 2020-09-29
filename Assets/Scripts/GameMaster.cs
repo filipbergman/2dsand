@@ -8,11 +8,12 @@ public class GameMaster : MonoBehaviour
 
     public static GameMaster gm;
 
-    private void Start() {
+    void Awake() {
         if (gm == null) {
             gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
         }
     }
+
     public Transform playerPrefab;
     public Transform spawnPoint;
     public float spawnDelay = 2f;
