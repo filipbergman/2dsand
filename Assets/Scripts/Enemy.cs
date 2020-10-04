@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour {
             get { return _currentHealth; }
             set { _currentHealth = Mathf.Clamp(value, 0, maxHealth);} // minimum is 0, maximum is maxhealth
         }
+        
+        public int damage = 40;
 
         public void Init() {
             currentHealth = maxHealth;
@@ -22,6 +24,9 @@ public class Enemy : MonoBehaviour {
     }
 
     public EnemyStats stats = new EnemyStats();
+    public Transform deathParticles;
+    public float shakeAmount = 0.1f;
+    public float shakeLength = 0.1f;
 
     [Header("Optional: ")]
     [SerializeField]
@@ -33,6 +38,11 @@ public class Enemy : MonoBehaviour {
         if(statusIndicator != null) {
             statusIndicator.SetHealth(stats.currentHealth, stats.maxHealth);
         }
+
+        if(deathParticles == null)
+        {
+            Debug.LogError("No death particles referenced!");
+        }
     }
 
     public void DamageEnemy(int damage) {
@@ -41,8 +51,6 @@ public class Enemy : MonoBehaviour {
         if (stats.currentHealth <= 0) {
             Debug.Log("KILL ENEMY");
             GameMaster.KillEnemy(this);
-            Transform explotion = Instantiate(explotionPrefab, transform.position, Quaternion.identity) as Transform;
-            Destroy(explotion.gameObject, 1.0f);
         }
 
         if (statusIndicator != null)
@@ -50,4 +58,18 @@ public class Enemy : MonoBehaviour {
             statusIndicator.SetHealth(stats.currentHealth, stats.maxHealth);
         }
     }
+
+    // Is called every time this object collides with something
+    void OnCollisionEnter2D(Collision2D _colInfo) {
+        Player _player = _colInfo.collider.GetComponent<Player>();
+        if(_player != null) {
+            _player.DamagePlayer(stats.damage);
+
+            DamageEnemy(9999999);
+        }
+
+
+    }
+
+
 }

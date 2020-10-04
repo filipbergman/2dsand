@@ -63,7 +63,6 @@ public class Weapon : MonoBehaviour {
             Enemy enemy = hit.collider.GetComponent<Enemy>();
             if(enemy != null) {
                 enemy.DamageEnemy(Damage);
-                Debug.Log("We hit" + hit.collider.name + " and did " + Damage + " damage!");
             }
         }
         if (Time.time >= timeToSpawnEffect) {

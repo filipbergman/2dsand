@@ -807,7 +807,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &272333163
 MonoBehaviour:
@@ -2145,7 +2145,12 @@ MonoBehaviour:
   explotionPrefab: {fileID: 3576380171410585104, guid: bb3d034b2e777154b99c784e920f9649,
     type: 3}
   stats:
-    maxHealth: 100
+    maxHealth: 200
+    damage: 40
+  deathParticles: {fileID: 3576380171410585104, guid: bb3d034b2e777154b99c784e920f9649,
+    type: 3}
+  shakeAmount: 0.1
+  shakeLength: 0.1
   statusIndicator: {fileID: 272333163}
 --- !u!4 &1470604172 stripped
 Transform:
@@ -2512,6 +2517,36 @@ Transform:
   - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1551010215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1551010216}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1551010216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551010215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1964438, y: -0.7514663, z: -49.748047}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1643170149
 GameObject:
@@ -8219,7 +8254,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3024798014263718931, guid: e27df5e2ba07c045f9ad951eab7bdf66,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8447,6 +8482,11 @@ PrefabInstance:
       propertyPath: spawnDelay
       value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1172224580306884665, guid: fd2fd9c04164e96c59738f7eb34b4b2d,
+        type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 1261330809}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd2fd9c04164e96c59738f7eb34b4b2d, type: 3}
 --- !u!1001 &4089783939103971830
@@ -8515,25 +8555,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089783938067715593, guid: 068c86a73bbfe3811be9783b5bdcb1e4,
-        type: 3}
-      propertyPath: m_WhatIsGround.m_Bits
-      value: 1079
-      objectReference: {fileID: 0}
-    - target: {fileID: 4089783938081446347, guid: 068c86a73bbfe3811be9783b5bdcb1e4,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 943068186, guid: 068c86a73bbfe3811be9783b5bdcb1e4, type: 3}
-      propertyPath: HitPrefab
-      value: 
-      objectReference: {fileID: 8889342849201646026, guid: eea7abd75ecb0784ba79a89757f37bd8,
-        type: 3}
-    - target: {fileID: 943068186, guid: 068c86a73bbfe3811be9783b5bdcb1e4, type: 3}
-      propertyPath: camShakeAmount
-      value: 0.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 068c86a73bbfe3811be9783b5bdcb1e4, type: 3}
