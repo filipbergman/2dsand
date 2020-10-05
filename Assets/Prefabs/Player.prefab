@@ -632,7 +632,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!114 &868108407978298951
 MonoBehaviour:
@@ -798,11 +798,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4089783938060664777}
     m_Modifications:
-    - target: {fileID: 4119823358440278810, guid: e75830ea0d171694eb4e2eb8b33e1849,
-        type: 3}
-      propertyPath: m_Name
-      value: StatusIndicator
-      objectReference: {fileID: 0}
     - target: {fileID: 5284814912553551888, guid: e75830ea0d171694eb4e2eb8b33e1849,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -907,6 +902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119823358440278810, guid: e75830ea0d171694eb4e2eb8b33e1849,
+        type: 3}
+      propertyPath: m_Name
+      value: StatusIndicator
       objectReference: {fileID: 0}
     - target: {fileID: 1617657834213506087, guid: e75830ea0d171694eb4e2eb8b33e1849,
         type: 3}

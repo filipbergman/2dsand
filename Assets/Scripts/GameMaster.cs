@@ -2,11 +2,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameMaster : MonoBehaviour
 {
 
     public static GameMaster gm;
+
+    private static int _remainingLives = 1;
+    public static int RemainingLives {
+        get { return _remainingLives; }
+    }
+
+    private static int _score;
+    public static int Score {
+        get { return _score; }
+    }
 
     void Awake() {
         if (gm == null) {
@@ -21,15 +32,23 @@ public class GameMaster : MonoBehaviour
 
     public CameraShake cameraShake;
 
+    [SerializeField]
+    private GameObject gameOverUI;
+
     void Start() {
-        if(cameraShake == null) {
+        _remainingLives = 1;
+        _score = 0;
+        if (cameraShake == null) {
             //Debug.LogError("No camera shake referenced in GM");
         }
     }
 
+    public void EndGame() {
+        Debug.Log("GAME OVER");
+        gameOverUI.SetActive(true);
+    }
 
-    public IEnumerator _RespawnPlayer()
-    {
+    public IEnumerator _RespawnPlayer() {
         GetComponent<AudioSource>().Play();
         
         yield return new WaitForSeconds(spawnDelay);
@@ -41,11 +60,18 @@ public class GameMaster : MonoBehaviour
     
     public static void KillPlayer(Player player) {
         Destroy(player.gameObject);
-        gm.StartCoroutine(gm._RespawnPlayer());
+        _remainingLives--;
+        if(_remainingLives <= 0) {
+            gm.EndGame();
+        } else {
+            gm.StartCoroutine(gm._RespawnPlayer());
+        }
     }
     
     public static void KillEnemy(Enemy enemy) {
         gm._killEnemy(enemy);
+        
+        _score += 10;
     }
 
     public void _killEnemy(Enemy _enemy) {
