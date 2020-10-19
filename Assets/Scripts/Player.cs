@@ -22,6 +22,11 @@ public class Player : MonoBehaviour {
     public PlayerStats stats = new PlayerStats();
     public int fallBoundry = -20;
 
+    public string deathSoundName = "DeathVoice";
+    public string damageSoundName = "Grunt";
+
+    private AudioManager audioManager;
+
     [SerializeField]
     private StatusIndicator statusIndicator;
 
@@ -32,6 +37,11 @@ public class Player : MonoBehaviour {
             Debug.LogError("No status indicator referenced on player");
         } else {
             statusIndicator.SetHealth(stats.currentHealth, stats.maxHealth);
+        }
+
+        audioManager = AudioManager.instance;
+        if (audioManager == null) {
+            Debug.LogError("No audioManager found!");
         }
     }
 
@@ -45,7 +55,10 @@ public class Player : MonoBehaviour {
         stats.currentHealth -= damage;
         if (stats.currentHealth <= 0) {
             Debug.Log("KILL PLAYER");
+            audioManager.playSound(deathSoundName);
             GameMaster.KillPlayer(this);
+        } else {
+            audioManager.playSound(damageSoundName);
         }
 
         statusIndicator.SetHealth(stats.currentHealth, stats.maxHealth);

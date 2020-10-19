@@ -6,6 +6,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
     public Transform explotionPrefab;
 
+
     [Serializable]
     public class EnemyStats {
         public int maxHealth = 100;
@@ -28,6 +29,11 @@ public class Enemy : MonoBehaviour {
     public float shakeAmount = 0.1f;
     public float shakeLength = 0.1f;
 
+    private AudioManager audioManager;
+
+    public string deathSoundName = "Explosion";
+    public string hitSoundName = "Hit";
+
     [Header("Optional: ")]
     [SerializeField]
     private StatusIndicator statusIndicator;
@@ -43,9 +49,15 @@ public class Enemy : MonoBehaviour {
         {
             Debug.LogError("No death particles referenced!");
         }
+
+        audioManager = AudioManager.instance;
+        if (audioManager == null) {
+            Debug.LogError("No audioManager found!");
+        }
     }
 
     public void DamageEnemy(int damage) {
+        audioManager.playSound(hitSoundName);
         stats.currentHealth -= damage;
 
         if (stats.currentHealth <= 0) {

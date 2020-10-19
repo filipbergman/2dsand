@@ -1,10 +1,10 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{723646C8-3ACA-15A6-24A4-CD3952546429}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{46DE3A01-CE67-690A-839B-19ED0EE80B8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{ACE7A20A-32C3-7CD0-BBA2-22B1FCB20022}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{723646C8-3ACA-15A6-24A4-CD3952546429}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{344F8951-E3C4-60CF-CA18-20E7B86A6A6C}"
 EndProject
@@ -18,6 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723646C8-3ACA-15A6-24A4-CD3952546429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723646C8-3ACA-15A6-24A4-CD3952546429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723646C8-3ACA-15A6-24A4-CD3952546429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723646C8-3ACA-15A6-24A4-CD3952546429}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46DE3A01-CE67-690A-839B-19ED0EE80B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46DE3A01-CE67-690A-839B-19ED0EE80B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46DE3A01-CE67-690A-839B-19ED0EE80B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,10 +30,6 @@ Global
 		{ACE7A20A-32C3-7CD0-BBA2-22B1FCB20022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE7A20A-32C3-7CD0-BBA2-22B1FCB20022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE7A20A-32C3-7CD0-BBA2-22B1FCB20022}.Release|Any CPU.Build.0 = Release|Any CPU
-		{723646C8-3ACA-15A6-24A4-CD3952546429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{723646C8-3ACA-15A6-24A4-CD3952546429}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{723646C8-3ACA-15A6-24A4-CD3952546429}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{723646C8-3ACA-15A6-24A4-CD3952546429}.Release|Any CPU.Build.0 = Release|Any CPU
 		{344F8951-E3C4-60CF-CA18-20E7B86A6A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{344F8951-E3C4-60CF-CA18-20E7B86A6A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344F8951-E3C4-60CF-CA18-20E7B86A6A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
